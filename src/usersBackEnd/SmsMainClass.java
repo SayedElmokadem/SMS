@@ -10,16 +10,9 @@ public class SmsMainClass {
 
 	public static void main(String[] args) {
 		
-SessionFactory sf=new Configuration().configure().addAnnotatedClass(UsersEntity.class).buildSessionFactory();	
-		try{
-		Session  session=sf.getCurrentSession();
+
+	System.out.println("test");	
 		
 		
-		
-		}catch (HibernateException e) {
-			
-			System.out.println(e.getMessage());
-		}
-		
-		}
+}
 }
